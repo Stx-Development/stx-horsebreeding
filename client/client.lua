@@ -2,10 +2,21 @@ local RSGCore = exports['rsg-core']:GetCoreObject()
 local males = {}
 local females = {}
 
+local function JobCheck()
+    local PlayerData = RSGCore.Functions.GetPlayerData().job.name
+    for k, v in pairs (Config.Jobs) do
+        if PlayerData == v then
+            return true
+        end
+    end
+    return false
 
+end
 
 
 RegisterNetEvent("stx-horsebreeding:client:openmainmenu", function()
+    local jobcheck = JobCheck()
+    if not jobcheck then NotifyHandler("Breeding System", "You are not allowed to do this", "error", 5000) return end 
     lib.registerContext({
         id = 'stx-horsebreeding:client:openmainmenun',
         title = 'Breeding System',
@@ -13,14 +24,14 @@ RegisterNetEvent("stx-horsebreeding:client:openmainmenu", function()
         options = {
             {
                 title = "Breeding Menu",
-                description = "Select your male horse to breed with.",
+                description = "Menu to start breeding of two horses",
                 onSelect = function()
                     TriggerEvent("stx-horsebreeding:client:openbreedingmenu")
                 end,
             },
             {
                 title = "Check Breedings",
-                description = "Select your male horse to breed with.",
+                description = "Check breeding progress",
                 onSelect = function()
                     TriggerEvent("stx-horsebreeding:client:openplayerbreedingmenu")
                 end,
@@ -34,7 +45,7 @@ RegisterNetEvent("stx-horsebreeding:client:openmainmenu", function()
             },
             {
                 title = "Select Female Horse",
-                description = "Select your male horse to breed with.",
+                description = "Select your female horse to breed with.",
                 onSelect = function()
                     TriggerEvent("stx-horsebreeding:client:openfemalehorsebreedingmenu")
                 end,
