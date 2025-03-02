@@ -7,6 +7,10 @@ Config.Time = 1 * 60 * 60 -- hour
 ---
 Config.locale = "en"
 
+Config.Jobs = {
+    "valbreeder",
+}
+
 Config.stables = {
     {
         value = "colter",
@@ -42,7 +46,6 @@ Config.stables = {
     },
 }
 
---- Not Created Under Development
 Config.locales = {
     ["en"] = {
         notify_title = "Breeding System",
