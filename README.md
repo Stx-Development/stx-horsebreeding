@@ -60,5 +60,5 @@ end)
 ```
 ## Support
 
-[Join my discord for support](https://discord.gg/fPjSxEHFMt)
-[Check Out My Paid Scripts](https://stxlabs.tebex.io)
+- [Join my discord for support](https://discord.gg/fPjSxEHFMt)
+- [Check Out My Paid Scripts](https://stxlabs.tebex.io)
