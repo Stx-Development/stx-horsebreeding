@@ -5,6 +5,8 @@
 
 This script is specially made to work with rsg-horses. This script allows you to breed two horses thats the main purpose of this
 
+CAN WE GET 50 STARS ON THIS.......
+
 ## REQUIREMENTS
 RSG HORSES
 OX_LIB
