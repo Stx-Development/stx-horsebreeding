@@ -6,8 +6,8 @@
 This script is specially made to work with rsg-horses. This script allows you to breed two horses thats the main purpose of this
 
 ## REQUIREMENTS
- RSG HORSES
- OX_LIB
+RSG HORSES
+OX_LIB
 
 ## INSTALLAION
 Insert The Given SQL
