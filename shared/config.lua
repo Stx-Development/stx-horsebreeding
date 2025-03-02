@@ -42,6 +42,7 @@ Config.stables = {
     },
 }
 
+--- Not Created Under Development
 Config.locales = {
     ["en"] = {
         notify_title = "Breeding System",
