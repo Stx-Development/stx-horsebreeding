@@ -2,7 +2,7 @@ Config = {}
 
 Config.Notify = "ox_lib"
 
-Config.Time = 1 * 60 * 60 -- hour
+Config.Time = 1 * 60 * 60 -- hour | Time took to breed horse
 
 ---
 Config.locale = "en"
