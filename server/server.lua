@@ -162,7 +162,7 @@ end)
 
 
 ----
-RSGCore.Commands.Add('breedingmenu', 'Open Breeding Menu', {}, false, function(source)
+RSGCore.Commands.Add(Config.command, 'Open Breeding Menu', {}, false, function(source)
     local src = source
     TriggerClientEvent('stx-horsebreeding:client:openmainmenu', src)
 end)
