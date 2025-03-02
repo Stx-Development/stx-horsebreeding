@@ -11,6 +11,8 @@ Config.Jobs = {
     "valbreeder",
 }
 
+Config.command = "breedmenu"
+
 Config.stables = {
     {
         value = "colter",
