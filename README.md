@@ -54,5 +54,7 @@ lib.callback.register('rsg-horses:server:GetHorse', function(source, stable)
     return horses
 end)
 ```
+## Support
 
-You are good to go.
+[Join my discord for support](https://discord.gg/fPjSxEHFMt)
+[Check Out My Paid Scripts](https://stxlabs.tebex.io)
