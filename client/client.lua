@@ -276,8 +276,3 @@ RegisterNetEvent("stx-horsebreeding:client:openplayerbreedingmenu", function()
 
 end)
 
-
-RegisterCommand("test1122", function()
-    TriggerEvent("stx-horsebreeding:client:openmainmenu")
-
-end)
