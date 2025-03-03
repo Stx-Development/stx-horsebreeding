@@ -1,9 +1,9 @@
 local RSGCore = exports['rsg-core']:GetCoreObject()
 
 function CreateUniqueNumber()
-    local CitizenId = math.random(1, 99999999999)
-    local result = MySQL.prepare.await('SELECT EXISTS(SELECT 1 FROM stx_horsebreeding WHERE customid = ?) AS uniqueCheck', { CitizenId })
-    if result == 0 then return CitizenId end
+    local customid = math.random(1, 99999999999)
+    local result = MySQL.prepare.await('SELECT EXISTS(SELECT 1 FROM stx_horsebreeding WHERE customid = ?) AS uniqueCheck', { customid })
+    if result == 0 then return customid end
     return CreateUniqueNumber()
 end
 
