@@ -13,7 +13,6 @@ local function JobCheck()
 
 end
 
-
 RegisterNetEvent("stx-horsebreeding:client:openmainmenu", function()
     local jobcheck = JobCheck()
     if not jobcheck then NotifyHandler("Breeding System", "You are not allowed to do this", "error", 5000) return end 
