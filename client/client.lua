@@ -20,7 +20,6 @@ RegisterNetEvent("stx-horsebreeding:client:openmainmenu", function()
     lib.registerContext({
         id = 'stx-horsebreeding:client:openmainmenun',
         title = 'Breeding System',
-        menu = 'stx-horsebreeding:client:openmainmenun__',
         options = {
             {
                 title = "Breeding Menu",
@@ -88,7 +87,6 @@ RegisterNetEvent("stx-horsebreeding:client:openmalehorsebreedingmenu", function(
     lib.registerContext({
         id = 'stx-horsebreeding:client:openmalehorsebreedingmenuu',
         title = 'Breeding System',
-        menu = 'stx-horsebreeding:client:openmalehorsebreedingmenuu__',
         options = menus,
     })
     lib.showContext('stx-horsebreeding:client:openmalehorsebreedingmenuu')
@@ -124,7 +122,6 @@ RegisterNetEvent("stx-horsebreeding:client:openfemalehorsebreedingmenu", functio
     lib.registerContext({
         id = 'stx-horsebreeding:client:openfemalehorsebreedingmenuu',
         title = 'Breeding System',
-        menu = 'stx-horsebreeding:client:openfemalehorsebreedingmenuu__',
         options = menus,
     })
     lib.showContext('stx-horsebreeding:client:openfemalehorsebreedingmenuu')
@@ -199,7 +196,6 @@ RegisterNetEvent("stx-horsebreeding:client:openbreedingmenu", function()
     lib.registerContext({
         id = 'stx-horsebreeding:client:openbreedingmenu',
         title = 'Breeding System',
-        menu = 'stx-horsebreeding:client:openbreedingmenu__',
         options = menus,
         onBack = function()
             TriggerEvent("stx-horsebreeding:client:openmainmenu")
@@ -265,7 +261,6 @@ RegisterNetEvent("stx-horsebreeding:client:openplayerbreedingmenu", function()
     lib.registerContext({
         id = 'stx-horsebreeding:client:openbreedingcheckingmenu',
         title = 'Breeding System',
-        menu = 'stx-horsebreeding:client:openbreedingcheckingmenu__',
         options = menus,
         onBack = function()
             TriggerEvent("stx-horsebreeding:client:openmainmenu")
